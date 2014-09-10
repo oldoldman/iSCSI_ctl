@@ -1,0 +1,19 @@
+TARGETNAME=iScsiConsole
+TARGETTYPE=PROGRAM
+TARGETPATH=..
+#USER_C_FLAGS=/Za
+UMTYPE=windows
+UMENTRY=winmain
+USE_MSVCRT=1
+USE_ATL=1
+USE_WTL=1
+INCLUDES=.;$(DDK_INC_PATH);
+TARGETLIBS=	$(SDK_LIB_PATH)\shell32.lib	\
+			$(SDK_LIB_PATH)\comctl32.lib	\
+			$(SDK_LIB_PATH)\oleaut32.lib	\
+			$(SDK_LIB_PATH)\ole32.lib	\
+			$(SDK_LIB_PATH)\comdlg32.lib	\
+			$(SDK_LIB_PATH)\gdiplus.lib	\
+			$(SDK_LIB_PATH)\msimg32.lib
+
+SOURCES= Console.cpp Console.rc

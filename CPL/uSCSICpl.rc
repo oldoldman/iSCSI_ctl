@@ -1,0 +1,9 @@
+#include <resource.h>
+
+IDR_ICON  ICON 		"MTPadDoc.ico"
+
+STRINGTABLE
+BEGIN
+IDR_USCSI	"uSCSI"
+IDR_DESC	"uSCSI Control Panel"
+END

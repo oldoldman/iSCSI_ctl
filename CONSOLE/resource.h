@@ -1,0 +1,15 @@
+
+#define ID_USCSI_PORT	1000
+#define ID_USCSI_DRV	1001
+
+#define ID_VERSION		1002
+
+#define ID_SYS_PORT		1003
+#define ID_SYS_USCSI	1004
+#define ID_ABOUT		1005
+
+#define ID_MAIN			1006
+#define ID_PNG			1007
+
+#define IDD_MAIN_DIALOG	2000
+#define IDD_GENERALPAGE	2001

@@ -1,0 +1,3 @@
+
+#define ID_USCSI_PORT	1000
+#define ID_USCSI_DRV	1001

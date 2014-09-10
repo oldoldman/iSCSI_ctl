@@ -1,0 +1,13 @@
+
+#include "resource.h"
+#include <atldef.h>
+
+IDD_MAIN_DIALOG DIALOG	100,100,200,250
+Caption "uSCSI Management Console"
+{
+}
+
+LOGO	PNG 	"res\\harddisks.png"
+APP		ICON 	"res\\hat.ico"
+
+ATL_CREATEPROCESS_MANIFEST_RESOURCE_ID ATL_RT_MANIFEST "console.exe.manifest"
