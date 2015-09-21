@@ -1,4 +1,4 @@
 # iSCSI_ctl
-an iSCSI demo driver for Windows
+iSCSI demo driver tools
 
 uitilities
